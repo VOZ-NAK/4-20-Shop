@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>4:20 Shop</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20241001215930" />
+	<link rel="shortcut icon" href="favicon.png" type="image/png" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<p class="top-header__text">Скидка на осенние товары</p>
+					<span class="top-header__discount">20%</span>
+				</div>
+			</div>
+			<div class="header__body body-header">
+				<div class="body-header__container">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<a href="./index.html" class="body-header__logo">4:20 Shop</a>
+					<div data-da=".catalog-header__container,1080" class="body-header__locations locations-header">
+						<a href="./map.html?city=Москва&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577332.5659198092!2d36.72621564040599!3d55.58103354861595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1727695073295!5m2!1sru!2sru" class="locations-header__city _icon-location">Москва</a>
+						<a href="./map.html?city=Санкт-Петербург&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255808.70679276172!2d29.765051746221946!3d59.94034692107245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1727696369576!5m2!1sru!2sru" class="locations-header__city _icon-location">Санкт-Петербург</a>
+						<a href="./map.html?city=Казань&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143543.35164599004!2d48.908499404229346!3d55.79558431451836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415ead2b7caccd99%3A0x7fcb77b9b5ad8c65!2z0JrQsNC30LDQvdGMLCDQoNC10YHQvy4g0KLQsNGC0LDRgNGB0YLQsNC9!5e0!3m2!1sru!2sru!4v1727696437341!5m2!1sru!2sru" class="locations-header__city _icon-location">Казань</a>
+						<a href="./map.html?city=Нижний Новгород&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d141707.91649821616!2d43.76136290845725!3d56.292098618939455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5f9ee033251%3A0x28d3c0cf849657aa!2z0J3QuNC20L3QuNC5INCd0L7QstCz0L7RgNC-0LQsINCd0LjQttC10LPQvtGA0L7QtNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1727696504869!5m2!1sru!2sru" class="locations-header__city _icon-location">Нижний Новгород</a>
+					</div>
+					<div class="body-header__search search-header _icon-search">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск" class="search-header__input" />
+						<button type="reset" class="search-header__button _icon-cross"></button>
+					</div>
+					<div class="body-header__actions actions-header">
+						<a href="./profile.html" class="actions-header__item _icon-user"></a>
+						<a href="./favorite.html" class="actions-header__item _icon-favorite"></a>
+						<a href="./cart.html" class="actions-header__item _icon-cart"></a>
+					</div>
+				</div>
+			</div>
+			<div class="header__catalog catalog-header">
+				<div class="catalog-header__container">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item" id="sale">
+									<a href="#" class="menu__link menu__link_red">SALE %</a>
+								</li>
+								<li class="menu__item" id="new">
+									<a href="#" class="menu__link">новинки</a>
+								</li>
+								<li class="menu__item" id="clothes">
+									<a href="#" class="menu__link">одежда</a>
+								</li>
+								<li class="menu__item" id="shoes">
+									<a href="#" class="menu__link">Обувь</a>
+								</li>
+								<li class="menu__item" id="accessories">
+									<a href="#" class="menu__link">аксессуары</a>
+								</li>
+								<li class="menu__item" id="brands">
+									<a href="#" class="menu__link">Любимые бренды</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="header__sale sale-header">
+				<div class="sale-header__container">
+					<div class="sale-header__items">
+						<div class="sale-header__item">
+							<a href="./catalog.html">
+								<picture><source srcset="img/header/sale/sale_1.webp" type="image/webp"><img src="img/header/sale/sale_1.png" alt="Товар" /></picture>
+								<a href="./catalog.html" class="sale-header__text">ЗИП ХУДИ STONE ISLAND</a>
+							</a>
+						</div>
+						<div class="sale-header__item">
+							<a href="./catalog.html">
+								<picture><source srcset="img/header/sale/sale_2.webp" type="image/webp"><img src="img/header/sale/sale_2.png" alt="Товар" /></picture>
+								<a href="./catalog.html" class="sale-header__text">ЗИП ХУДИ ШЕРПА STONE ISLAND С КАПЮШОНОМ
+								</a>
+							</a>
+						</div>
+						<div class="sale-header__item">
+							<picture><source srcset="img/header/sale/sale_3.webp" type="image/webp"><img src="img/header/sale/sale_3.png" alt="Товар" /></picture>
+							<a href="#" class="sale-header__text">ХУДИ ARC'TERYX</a>
+						</div>
+						<div class="sale-header__item">
+							<picture><source srcset="img/header/sale/sale_4.webp" type="image/webp"><img src="img/header/sale/sale_4.png" alt="Товар" /></picture>
+							<a href="#" class="sale-header__text">ЗИП ШЕРПА STONE ISLAND</a>
+						</div>
+						<div class="sale-header__item">
+							<picture><source srcset="img/header/sale/sale_5.webp" type="image/webp"><img src="img/header/sale/sale_5.png" alt="Товар" /></picture>
+							<a href="#" class="sale-header__text">ЗИП ХУДИ BAPE SHARK С КАПЮШОНОМ</a>
+						</div>
+						<div class="sale-header__item">
+							<picture><source srcset="img/header/sale/sale_6.webp" type="image/webp"><img src="img/header/sale/sale_6.png" alt="Товар" /></picture>
+							<a href="#" class="sale-header__text">ЗИП ХУДИ ШЕРПА STONE ISLAND С КАПЮШОНОМ
+							</a>
+						</div>
+						<div class="sale-header__item">
+							<picture><source srcset="img/header/sale/sale_7.webp" type="image/webp"><img src="img/header/sale/sale_7.png" alt="Товар" /></picture>
+							<a href="#" class="sale-header__text">ЗИП ХУДИ BAPE SHARK С КАПЮШОНОМ</a>
+						</div>
+					</div>
+					<a href="#" class="sale-header__button _icon-arrow">Смотреть все</a>
+				</div>
+			</div>
+			<div class="sub-menu-catalog">
+				<div class="sub-menu-catalog__container">
+					<div class="sub-menu-catalog__column"></div>
+					<div class="sub-menu-catalog__column">
+						<a href="./catalog.html" class="sub-menu-catalog__category">Новинки брендов</a>
+						<ul class="sub-menu-catalog__list">
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Adidas</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">New Balance</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Bape</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Nike</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Carhartt</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Vlone</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">The North Face</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Gap</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Vanse</a>
+							</li>
+						</ul>
+					</div>
+					<div class="sub-menu-catalog__column">
+						<a href="./catalog.html" class="sub-menu-catalog__category">Топ избранных</a>
+						<div class="sub-menu-catalog__top top">
+							<a href="./catalog.html" class="top__link">
+								<picture><source srcset="img/header/shirts.webp" type="image/webp"><img class="top__image" src="img/header/shirts.png" alt="Товар" /></picture>
+								<p class="top__text">Футболки</p>
+							</a>
+							<a href="./catalog.html" class="top__link">
+								<picture><source srcset="img/header/hoodie.webp" type="image/webp"><img class="top__image" src="img/header/hoodie.png" alt="Товар" /></picture>
+								<p class="top__text">Худи</p>
+							</a>
+							<a href="./catalog.html" class="top__link">
+								<picture><source srcset="img/header/sweatshirts.webp" type="image/webp"><img class="top__image" src="img/header/sweatshirts.png" alt="Товар" /></picture>
+								<p class="top__text">Свитшоты</p>
+							</a>
+							<a href="./catalog.html" class="top__link">
+								<picture><source srcset="img/header/longsleeves.webp" type="image/webp"><img class="top__image" src="img/header/longsleeves.png" alt="Товар" /></picture>
+								<p class="top__text">Лонгсливы</p>
+							</a>
+						</div>
+					</div>
+					<div class="sub-menu-catalog__column">
+						<div class="sub-menu-catalog__cards">
+							<a href="./catalog.html" class="sub-menu-catalog__card sub-menu-catalog__card_hoodie">
+								Худи и толстовки
+							</a>
+
+							<a href="./catalog.html" class="sub-menu-catalog__card sub-menu-catalog__card_longsleeves">
+								Ветровки
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__mobile-menu menu-mobile">
+				<div class="body-header__locations locations-header">
+					<a href="./map.html?city=Москва&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577332.5659198092!2d36.72621564040599!3d55.58103354861595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1727695073295!5m2!1sru!2sru" class="locations-header__city _icon-location">Москва</a>
+					<a href="./map.html?city=Санкт-Петербург&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255808.70679276172!2d29.765051746221946!3d59.94034692107245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1727696369576!5m2!1sru!2sru" class="locations-header__city _icon-location">Санкт-Петербург</a>
+					<a href="./map.html?city=Казань&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143543.35164599004!2d48.908499404229346!3d55.79558431451836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415ead2b7caccd99%3A0x7fcb77b9b5ad8c65!2z0JrQsNC30LDQvdGMLCDQoNC10YHQvy4g0KLQsNGC0LDRgNGB0YLQsNC9!5e0!3m2!1sru!2sru!4v1727696437341!5m2!1sru!2sru" class="locations-header__city _icon-location">Казань</a>
+					<a href="./map.html?city=Нижний Новгород&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d141707.91649821616!2d43.76136290845725!3d56.292098618939455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5f9ee033251%3A0x28d3c0cf849657aa!2z0J3QuNC20L3QuNC5INCd0L7QstCz0L7RgNC-0LQsINCd0LjQttC10LPQvtGA0L7QtNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1727696504869!5m2!1sru!2sru" class="locations-header__city _icon-location">Нижний Новгород</a>
+				</div>
+
+				<div class="body-header__search search-header _icon-search">
+					<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск" class="search-header__input" />
+					<button class="search-header__button _icon-cross"></button>
+				</div>
+				<div class="menu-mobile__sale">sALE %</div>
+				<ul class="menu-mobile__items">
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title menu-mobile__item menu-mobile__item_new">
+								новинки
+							</button>
+							<div class="spollers__body">
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Посмотреть все</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Обувь</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Пуховики и куртки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Худи</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Футболки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Спортивная одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Аксессуары</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title menu-mobile__item menu-mobile__item_clothes">
+								одежда
+							</button>
+							<div class="spollers__body">
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Посмотреть все</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Бестселлеры</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Новое в разделе “Одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Пуховики и куртки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Худи и Свитшоты</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Джинсы</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Футболки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Джоггеры</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title menu-mobile__item menu-mobile__item_shoes">
+								Обувь
+							</button>
+							<div class="spollers__body">
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Посмотреть все</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Кроссовки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Кеды</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Мокасины</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Сандали</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Тапочки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Спортивная одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Спортивные кроссовки</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title menu-mobile__item menu-mobile__item_brands">
+								Любимые бренды
+							</button>
+							<div class="spollers__body">
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Посмотреть все</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Обувь</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Пуховики и куртки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Худи</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Футболки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Спортивная одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Аксессуары</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title menu-mobile__item menu-mobile__item_accessories">
+								аксессуары
+							</button>
+							<div class="spollers__body">
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Посмотреть все</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Кепки и панамки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Шарфы</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Перчатки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Ремни</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Подарки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Солнечные очки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Кольца</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</ul>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="preview">
+				<div class="preview__container">
+					<div class="preview__left">
+						<picture><source srcset="img/main/preview/left.webp" type="image/webp"><img src="img/main/preview/left.png" alt="Картинка" /></picture>
+					</div>
+					<div class="preview__right">
+						<picture><source srcset="img/main/preview/right.webp" type="image/webp"><img src="img/main/preview/right.png" alt="Картинка" /></picture>
+					</div>
+					<div class="preview__middle">
+						<h2 class="preview__title">Spring mood</h2>
+						<p class="preview__sub-title">-20% на новую коллекцию.</p>
+						<a href="./catalog.html" class="preview__button _icon-arrow">В каталог</a>
+					</div>
+				</div>
+			</section>
+			<div class="categories">
+				<div class="categories__container">
+					<div class="categories__slider swiper">
+						<div class="categories__wrapper swiper-wrapper">
+							<div class="categories__slide swiper-slide">
+								<div class="categories__body">
+									<a href="./catalog.html">
+										<picture><source srcset="img/main/categories/categories_1.webp" type="image/webp"><img src="img/main/categories/categories_1.png" alt="Футболки" /></picture>
+										<a href="./catalog.html" class="categories__text">Футболки</a>
+									</a>
+								</div>
+							</div>
+							<div class="categories__slide swiper-slide">
+								<div class="categories__body">
+									<a href="./catalog.html">
+										<picture><source srcset="img/main/categories/categories_2.webp" type="image/webp"><img src="img/main/categories/categories_2.png" alt="Худи" /></picture>
+										<a href="./catalog.html" class="categories__text"> Худи</a>
+									</a>
+								</div>
+							</div>
+							<div class="categories__slide swiper-slide">
+								<div class="categories__body">
+									<a href="./catalog.html">
+										<picture><source srcset="img/main/categories/categories_3.webp" type="image/webp"><img src="img/main/categories/categories_3.png" alt="Свитшоты" /></picture>
+										<a href="./catalog.html" class="categories__text">Свитшоты </a>
+									</a>
+								</div>
+							</div>
+							<div class="categories__slide swiper-slide">
+								<div class="categories__body">
+									<a href="./catalog.html">
+										<picture><source srcset="img/main/categories/categories_4.webp" type="image/webp"><img src="img/main/categories/categories_4.png" alt="Лонгсливы" /></picture>
+										<a href="./catalog.html" class="categories__text">Лонгсливы </a>
+									</a>
+								</div>
+							</div>
+							<div class="categories__slide swiper-slide">
+								<div class="categories__body">
+									<a href="./catalog.html">
+										<picture><source srcset="img/main/categories/categories_5.webp" type="image/webp"><img src="img/main/categories/categories_5.png" alt="Рубашки" /></picture>
+										<a href="./catalog.html" class="categories__text"> Рубашки</a>
+									</a>
+								</div>
+							</div>
+							<div class="categories__slide swiper-slide">
+								<div class="categories__body">
+									<a href="./catalog.html">
+										<picture><source srcset="img/main/categories/categories_6.webp" type="image/webp"><img src="img/main/categories/categories_6.png" alt="Свитерa" /></picture>
+										<a href="./catalog.html" class="categories__text">Свитера </a>
+									</a>
+								</div>
+							</div>
+							<div class="categories__slide swiper-slide">
+								<div class="categories__body">
+									<a href="./catalog.html">
+										<picture><source srcset="img/main/categories/categories_7.webp" type="image/webp"><img src="img/main/categories/categories_7.png" alt=" Джинсы" /></picture>
+										<a href="./catalog.html" class="categories__text"> Джинсы</a>
+									</a>
+								</div>
+							</div>
+							<div class="categories__slide swiper-slide">
+								<div class="categories__body">
+									<a href="./catalog.html">
+										<picture><source srcset="img/main/categories/categories_8.webp" type="image/webp"><img src="img/main/categories/categories_8.png" alt="Штаны " /></picture>
+										<a href="./catalog.html" class="categories__text">Штаны </a>
+									</a>
+								</div>
+							</div>
+							<div class="categories__slide swiper-slide">
+								<div class="categories__body">
+									<a href="./catalog.html">
+										<picture><source srcset="img/main/categories/categories_9.webp" type="image/webp"><img src="img/main/categories/categories_9.png" alt="Спортивные" /></picture>
+										<a href="./catalog.html" class="categories__text"> Спортивные</a>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="new-brands">
+				<div class="new-brands__container">
+					<div class="new-brands__column">
+						<picture><source srcset="img/main/new-brands/new-brands_1.webp" type="image/webp"><img class="new-brands__image-big" src="img/main/new-brands/new-brands_1.png" alt="new-brands" /></picture>
+					</div>
+					<div class="new-brands__column">
+						<h2 class="new-brands__title title">Новинки любимых брендов</h2>
+						<p class="new-brands__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Non
+							blandit massa enim nec dui nunc mattis. Enim blandit volutpat
+							maecenas volutpat blandit aliquam etiam.
+						</p>
+						<div class="new-brands__image">
+							<picture><source srcset="img/main/new-brands/new-brands_1.1.webp" type="image/webp"><img src="img/main/new-brands/new-brands_1.1.png" alt="" /></picture>
+						</div>
+						<div class="new-brands__slider swiper">
+							<div class="new-brands__wrapper swiper-wrapper">
+								<a href="./catalog.html" class="new-brands__slide swiper-slide">
+									<picture><source srcset="img/main/new-brands/new-brands_2.webp" type="image/webp"><img src="img/main/new-brands/new-brands_2.png" alt="Картинка товара" /></picture>
+									<p class="new-brands__categories">Мужская одежда</p>
+								</a>
+								<a href="./catalog.html" class="new-brands__slide swiper-slide">
+									<picture><source srcset="img/main/new-brands/new-brands_3.webp" type="image/webp"><img src="img/main/new-brands/new-brands_3.png" alt="Картинка товара" /></picture>
+									<p class="new-brands__categories">Женская одежда</p>
+								</a>
+								<a href="./catalog.html" class="new-brands__slide swiper-slide">
+									<picture><source srcset="img/main/new-brands/new-brands_4.webp" type="image/webp"><img src="img/main/new-brands/new-brands_4.png" alt="Картинка товара" /></picture>
+									<p class="new-brands__categories">Обувь</p>
+								</a>
+								<a href="./catalog.html" class="new-brands__slide swiper-slide">
+									<picture><source srcset="img/main/new-brands/new-brands_5.webp" type="image/webp"><img src="img/main/new-brands/new-brands_5.png" alt="Картинка товара" /></picture>
+									<p class="new-brands__categories">Аксессуары</p>
+								</a>
+							</div>
+							<div class="swiper-pagination new-brands__pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="popular">
+				<div class="popular__container swiper-home">
+					<div class="swiper-home__head head-swiper-home">
+						<h2 class="head-swiper-home__title title">Популярное</h2>
+						<a href="./catalog.html" class="head-swiper-home__catalog _icon-arrow-catalog">В каталог</a>
+					</div>
+					<div class="swiper-home__body body-swiper-home">
+						<div class="body-swiper-home__slider swiper">
+							<div class="body-swiper-home__wrapper swiper-wrapper">
+								<div class="body-swiper-home__slide swiper-slide slide-body-swiper-home">
+									<a href="./card.html">
+										<div class="slide-body-swiper-home__slider swiper">
+											<div class="heart slide-body-swiper-home__favorite">
+												<div class="heart__checkbox">
+													<input id="heart" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="heart" class="checkbox__label _icon-favorite"></label>
+												</div>
+											</div>
+											<div class="slide-body-swiper-home__wrapper swiper-wrapper">
+
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img src="img/main/popular/popular_1.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<img src="img/main/popular/popular_2.png " alt="Карточка товара">
+												</div>
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_3.webp" type="image/webp"><img src="img/main/popular/popular_3.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_2.webp" type="image/webp"><img src="img/main/popular/popular_2.png" alt="Карточка товара"></picture>
+												</div>
+											</div>
+											<div class="swiper-pagination slide-body-swiper-home__pagination"></div>
+										</div>
+										<div class="slide-body-swiper-home__head">
+											<div class="slide-body-wiper-home__price">3990 ₽</div>
+											<button class="slide-body-swiper-home__cart _icon-cart"></button>
+										</div>
+										<div class="slide-body-swiper-home__body">
+											<p class="slide-body-swiper-home__brand">Stone Island</p>
+											<div class="slide-body-swiper-home__name">Зип худи шерпа с капюшоном (белый)</div>
+										</div>
+									</a>
+								</div>
+								<div class="body-swiper-home__slide swiper-slide slide-body-swiper-home">
+									<a href="./card.html">
+										<div class="slide-body-swiper-home__slider swiper">
+											<div class="heart slide-body-swiper-home__favorite">
+												<div class="heart__checkbox">
+													<input id="heart" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="heart" class="checkbox__label _icon-favorite"></label>
+												</div>
+											</div>
+											<div class="slide-body-swiper-home__wrapper swiper-wrapper">
+
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img src="img/main/popular/popular_1.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_2.webp" type="image/webp"><img src="img/main/popular/popular_2.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_3.webp" type="image/webp"><img src="img/main/popular/popular_3.png" alt="Карточка товара"></picture>
+												</div>
+											</div>
+											<div class="swiper-pagination slide-body-swiper-home__pagination"></div>
+										</div>
+										<div class="slide-body-swiper-home__head">
+											<div class="slide-body-wiper-home__price">3990 ₽</div>
+											<button class="slide-body-swiper-home__cart _icon-cart"></button>
+										</div>
+										<div class="slide-body-swiper-home__body">
+											<p class="slide-body-swiper-home__brand">Stone Island</p>
+											<div class="slide-body-swiper-home__name">Зип худи шерпа с капюшоном (белый)</div>
+										</div>
+									</a>
+								</div>
+								<div class="body-swiper-home__slide swiper-slide slide-body-swiper-home">
+									<a href="./card.html">
+										<div class="slide-body-swiper-home__slider swiper">
+											<div class="heart slide-body-swiper-home__favorite">
+												<div class="heart__checkbox">
+													<input id="heart" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="heart" class="checkbox__label _icon-favorite"></label>
+												</div>
+											</div>
+											<div class="slide-body-swiper-home__wrapper swiper-wrapper">
+
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img src="img/main/popular/popular_1.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_2.webp" type="image/webp"><img src="img/main/popular/popular_2.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_3.webp" type="image/webp"><img src="img/main/popular/popular_3.png" alt="Карточка товара"></picture>
+												</div>
+											</div>
+											<div class="swiper-pagination slide-body-swiper-home__pagination"></div>
+										</div>
+										<div class="slide-body-swiper-home__head">
+											<div class="slide-body-wiper-home__price">3990 ₽</div>
+											<button class="slide-body-swiper-home__cart _icon-cart"></button>
+										</div>
+										<div class="slide-body-swiper-home__body">
+											<p class="slide-body-swiper-home__brand">Stone Island</p>
+											<div class="slide-body-swiper-home__name">Зип худи шерпа с капюшоном (белый)</div>
+										</div>
+									</a>
+								</div>
+								<div class="body-swiper-home__slide swiper-slide slide-body-swiper-home">
+									<a href="./card.html">
+										<div class="slide-body-swiper-home__slider swiper">
+											<div class="heart slide-body-swiper-home__favorite">
+												<div class="heart__checkbox">
+													<input id="heart" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="heart" class="checkbox__label _icon-favorite"></label>
+												</div>
+											</div>
+											<div class="slide-body-swiper-home__wrapper swiper-wrapper">
+
+												<div class="slide-body-swiper-home__slide  popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img src="img/main/popular/popular_1.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_2.webp" type="image/webp"><img src="img/main/popular/popular_2.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_3.webp" type="image/webp"><img src="img/main/popular/popular_3.png" alt="Карточка товара"></picture>
+												</div>
+											</div>
+											<div class="swiper-pagination slide-body-swiper-home__pagination"></div>
+										</div>
+										<div class="slide-body-swiper-home__head">
+											<div class="slide-body-wiper-home__price">3990 ₽</div>
+											<button class="slide-body-swiper-home__cart _icon-cart"></button>
+										</div>
+										<div class="slide-body-swiper-home__body">
+											<p class="slide-body-swiper-home__brand">Stone Island</p>
+											<div class="slide-body-swiper-home__name">Зип худи шерпа с капюшоном (белый)</div>
+										</div>
+									</a>
+								</div>
+								<div class="body-swiper-home__slide swiper-slide slide-body-swiper-home">
+									<a href="./card.html">
+										<div class="slide-body-swiper-home__slider swiper">
+											<div class="heart slide-body-swiper-home__favorite">
+												<div class="heart__checkbox">
+													<input id="heart" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="heart" class="checkbox__label _icon-favorite"></label>
+												</div>
+											</div>
+											<div class="slide-body-swiper-home__wrapper swiper-wrapper">
+
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img src="img/main/popular/popular_1.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_2.webp" type="image/webp"><img src="img/main/popular/popular_2.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide popular__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_3.webp" type="image/webp"><img src="img/main/popular/popular_3.png" alt="Карточка товара"></picture>
+												</div>
+											</div>
+											<div class="swiper-pagination slide-body-swiper-home__pagination"></div>
+										</div>
+										<div class="slide-body-swiper-home__head">
+											<div class="slide-body-wiper-home__price">3990 ₽</div>
+											<button class="slide-body-swiper-home__cart _icon-cart"></button>
+										</div>
+										<div class="slide-body-swiper-home__body">
+											<p class="slide-body-swiper-home__brand">Stone Island</p>
+											<div class="slide-body-swiper-home__name">Зип худи шерпа с капюшоном (белый)</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-pagination body-swipe__pagination"></div>
+						</div>
+					</div>
+
+			</section>
+			<section class="actual">
+				<div class="actual__container">
+					<h2 class="actual__title title">Актуальное</h2>
+					<div class="actual__slider swiper">
+						<div class="actual__wrapper swiper-wrapper">
+							<div class="actual__slide swiper-slide">
+								<div class="actual__column actual__column_left">
+									<a href="./catalog.html" class="actual__item">
+										<picture><source srcset="img/main/actual/actual_1.webp" type="image/webp"><img class="actual__imgSmall" src="img/main/actual/actual_1.png" alt=""></picture>
+										<div class="actual__description">
+											<p class="actual__text">Джинсы</p>
+											<p class="actual__sub-text">Все еще в тренде</p>
+										</div>
+									</a>
+									<a href="./catalog.html" class="actual__item">
+										<picture><source srcset="img/main/actual/actual_1.webp" type="image/webp"><img class="actual__imgSmall" src="img/main/actual/actual_1.png" alt=""></picture>
+										<div class="actual__description">
+											<p class="actual__text">Джинсы</p>
+											<p class="actual__sub-text">Все еще в тренде</p>
+										</div>
+									</a>
+								</div>
+								<a href="./catalog.html" class="actual__column">
+									<picture><source srcset="img/main/actual/actual_3.webp" type="image/webp"><img class="actual__imgBig" src="img/main/actual/actual_3.png" alt=""></picture>
+									<div class="actual__description">
+										<p class="actual__text">Джинсы</p>
+										<p class="actual__sub-text">Все еще в тренде</p>
+									</div>
+								</a>
+							</div>
+							<div class="actual__slide swiper-slide">
+								<div class="actual__column actual__column_left">
+									<a href="./catalog.html" class="actual__item">
+										<picture><source srcset="img/main/actual/actual_1.webp" type="image/webp"><img class="actual__imgSmall" src="img/main/actual/actual_1.png" alt=""></picture>
+										<div class="actual__description">
+											<p class="actual__text">Джинсы</p>
+											<p class="actual__sub-text">Все еще в тренде</p>
+										</div>
+									</a>
+									<a href="./catalog.html" class="actual__item">
+										<picture><source srcset="img/main/actual/actual_1.webp" type="image/webp"><img class="actual__imgSmall" src="img/main/actual/actual_1.png" alt=""></picture>
+										<div class="actual__description">
+											<p class="actual__text">Джинсы</p>
+											<p class="actual__sub-text">Все еще в тренде</p>
+										</div>
+									</a>
+								</div>
+								<a href="./catalog.html" class="actual__column">
+									<picture><source srcset="img/main/actual/actual_3.webp" type="image/webp"><img class="actual__imgBig" src="img/main/actual/actual_3.png" alt=""></picture>
+									<div class="actual__description">
+										<p class="actual__text">Джинсы</p>
+										<p class="actual__sub-text">Все еще в тренде</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="swiper-pagination actual__pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="discount">
+				<div class="discount__container swiper-home">
+					<div class="swiper-home__head head-swiper-home">
+						<h2 class="head-swiper-home__title title">Скидочные товары</h2>
+						<a href="./catalog.html" class="head-swiper-home__catalog _icon-arrow-catalog">В каталог</a>
+					</div>
+					<div class="swiper-home__body body-swiper-home">
+						<div class="body-swiper-home__slider swiper">
+							<div class="body-swiper-home__wrapper swiper-wrapper">
+								<div class="body-swiper-home__slide swiper-slide slide-body-swiper-home">
+									<a href="./card.html">
+										<div class="slide-body-swiper-home__slider swiper">
+											<div class="heart slide-body-swiper-home__favorite">
+												<div class="heart__checkbox">
+													<input id="heart" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="heart" class="checkbox__label _icon-favorite"></label>
+												</div>
+											</div>
+											<div class="slide-body-swiper-home__wrapper swiper-wrapper">
+
+												<div class="slide-body-swiper-home__slide discount__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img src="img/main/popular/popular_1.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide discount__slide swiper-slide">
+
+													<img src="img/main/popular/popular_2.png " alt="Карточка товара">
+												</div>
+												<div class="slide-body-swiper-home__slide discount__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_3.webp" type="image/webp"><img src="img/main/popular/popular_3.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide discount_slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_3.webp" type="image/webp"><img src="img/main/popular/popular_3.png" alt="Карточка товара"></picture>
+												</div>
+											</div>
+											<div class="swiper-pagination slide-body-swiper-home__pagination"></div>
+										</div>
+										<div class="slide-body-swiper-home__head">
+											<div class="slide-body-wiper-home__price">3990 ₽</div>
+											<button class="slide-body-swiper-home__cart _icon-cart"></button>
+										</div>
+										<div class="slide-body-swiper-home__body">
+											<p class="slide-body-swiper-home__brand">Stone Island</p>
+											<div class="slide-body-swiper-home__name">Зип худи шерпа с капюшоном (белый)</div>
+										</div>
+									</a>
+								</div>
+								<div class="body-swiper-home__slide swiper-slide slide-body-swiper-home">
+									<a href="./card.html">
+										<div class="slide-body-swiper-home__slider swiper">
+											<div class="heart slide-body-swiper-home__favorite">
+												<div class="heart__checkbox">
+													<input id="heart" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="heart" class="checkbox__label _icon-favorite"></label>
+												</div>
+											</div>
+											<div class="slide-body-swiper-home__wrapper swiper-wrapper">
+
+												<div class="slide-body-swiper-home__slide discount__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img src="img/main/popular/popular_1.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide discount__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_2.webp" type="image/webp"><img src="img/main/popular/popular_2.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide discount__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_3.webp" type="image/webp"><img src="img/main/popular/popular_3.png" alt="Карточка товара"></picture>
+												</div>
+											</div>
+											<div class="swiper-pagination slide-body-swiper-home__pagination"></div>
+										</div>
+										<div class="slide-body-swiper-home__head">
+											<div class="slide-body-wiper-home__price">3990 ₽</div>
+											<button class="slide-body-swiper-home__cart _icon-cart"></button>
+										</div>
+										<div class="slide-body-swiper-home__body">
+											<p class="slide-body-swiper-home__brand">Stone Island</p>
+											<div class="slide-body-swiper-home__name">Зип худи шерпа с капюшоном (белый)</div>
+										</div>
+									</a>
+								</div>
+								<div class="body-swiper-home__slide swiper-slide slide-body-swiper-home">
+									<a href="./card.html">
+										<div class="slide-body-swiper-home__slider swiper">
+											<div class="heart slide-body-swiper-home__favorite">
+												<div class="heart__checkbox">
+													<input id="heart" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="heart" class="checkbox__label _icon-favorite"></label>
+												</div>
+											</div>
+											<div class="slide-body-swiper-home__wrapper swiper-wrapper">
+
+												<div class="slide-body-swiper-home__slide discount__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img src="img/main/popular/popular_1.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide discount__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_2.webp" type="image/webp"><img src="img/main/popular/popular_2.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide discount__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_3.webp" type="image/webp"><img src="img/main/popular/popular_3.png" alt="Карточка товара"></picture>
+												</div>
+											</div>
+											<div class="swiper-pagination slide-body-swiper-home__pagination"></div>
+										</div>
+										<div class="slide-body-swiper-home__head">
+											<div class="slide-body-wiper-home__price">3990 ₽</div>
+											<button class="slide-body-swiper-home__cart _icon-cart"></button>
+										</div>
+										<div class="slide-body-swiper-home__body">
+											<p class="slide-body-swiper-home__brand">Stone Island</p>
+											<div class="slide-body-swiper-home__name">Зип худи шерпа с капюшоном (белый)</div>
+										</div>
+									</a>
+								</div>
+								<div class="body-swiper-home__slide swiper-slide slide-body-swiper-home">
+									<a href="./card.html">
+										<div class="slide-body-swiper-home__slider swiper">
+											<div class="heart slide-body-swiper-home__favorite">
+												<div class="heart__checkbox">
+													<input id="heart" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="heart" class="checkbox__label _icon-favorite"></label>
+												</div>
+											</div>
+											<div class="slide-body-swiper-home__wrapper swiper-wrapper">
+
+												<div class="slide-body-swiper-home__slide  discount__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img src="img/main/popular/popular_1.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide discount__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_2.webp" type="image/webp"><img src="img/main/popular/popular_2.png" alt="Карточка товара"></picture>
+												</div>
+												<div class="slide-body-swiper-home__slide discount__slide swiper-slide">
+
+													<picture><source srcset="img/main/popular/popular_3.webp" type="image/webp"><img src="img/main/popular/popular_3.png" alt="Карточка товара"></picture>
+												</div>
+											</div>
+											<div class="swiper-pagination slide-body-swiper-home__pagination"></div>
+										</div>
+										<div class="slide-body-swiper-home__head">
+											<div class="slide-body-wiper-home__price">3990 ₽</div>
+											<button class="slide-body-swiper-home__cart _icon-cart"></button>
+										</div>
+										<div class="slide-body-swiper-home__body">
+											<p class="slide-body-swiper-home__brand">Stone Island</p>
+											<div class="slide-body-swiper-home__name">Зип худи шерпа с капюшоном (белый)</div>
+										</div>
+									</a>
+								</div>
+
+							</div>
+							<div class="swiper-pagination body-swipe__pagination"></div>
+						</div>
+					</div>
+			</section>
+			<section class="sale-form">
+				<div class="sale-form__container">
+					<h2 class="sale-form__title">Скидка 10% на подписку</h2>
+					<form data-dev class="sale-form__form" action="#">
+						<input data-required="email" required autocomplete="on" id="formEmail" type="email" name="email" data-error="Ошибка" placeholder="Введите e-mail" class="sale-form__input input" />
+						<button type="submit" class="sale-form__button ">
+							Подписаться
+						</button>
+					</form>
+					<p class="sale-form__text">
+						Подпишись на Street Beat в <a href="#">VKontakte</a>,
+						<a href="#">Telegram</a>, <a href="#">YouTobe</a>, чтобы не
+						пропустить свежие новости и посты о наших магазинах, а также о
+						приглашениях, распрадажах и мероприятиях.
+					</p>
+					<div class="sale-form__social">
+						<a href="https://vk.com/voznyak98" class="sale-form__vk _icon-vk"></a>
+						<a href="https://t.me/VOZNAKK" class="sale-form__telegram _icon-telegram"></a>
+						<a href="https://t.me/VOZNAKK" class="sale-form__youTube _icon-youTube"></a>
+					</div>
+				</div>
+			</section>
+			<section class="news">
+				<div class="news__container">
+					<h2 class="news__title title">Модные новости</h2>
+					<div class="news__items">
+						<div class="news__slider swiper">
+							<div class="news__wrapper swiper-wrapper">
+								<div class="news__slide swiper-slide">
+									<div class="news__item item-news">
+										<picture><source srcset="img/main/news/news_1.webp" type="image/webp"><img src="img/main/news/news_1.png" alt="" class="item-news__image" /></picture>
+										<div class="item-news__description">
+											<h3 class="item-news__title">Совершайте покупки,</h3>
+											<p class="item-news__sub-title">
+												Которые сделают мир лучше.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="news__slide swiper-slide">
+									<div class="news__item item-news">
+										<picture><source srcset="img/main/news/news_2.webp" type="image/webp"><img src="img/main/news/news_2.png" alt="" class="item-news__image" /></picture>
+										<div class="item-news__description">
+											<h3 class="item-news__title">Совершайте покупки,</h3>
+											<p class="item-news__sub-title">
+												Которые сделают мир лучше.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="news__slide swiper-slide">
+									<div class="news__item item-news">
+										<picture><source srcset="img/main/news/news_3.webp" type="image/webp"><img src="img/main/news/news_3.png" alt="" class="item-news__image" /></picture>
+										<div class="item-news__description">
+											<h3 class="item-news__title">Совершайте покупки,</h3>
+											<p class="item-news__sub-title">
+												Которые сделают мир лучше.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="footer__container">
+					<div class="footer__content">
+						<div class="footer__column">
+							<p class="footer__title">Помощь</p>
+							<ul class="footer__items">
+								<li class="footer__item">
+									<a href="./profile.html" class="footer__link">Мой аккаунт</a>
+								</li>
+								<li class="footer__item">
+									<a href="./map.html" class="footer__link">Где мой магазин</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Доставка и Оплата</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">правила возврата</a>
+								</li>
+								<li class="footer__item">
+									<a href="./map.html" class="footer__link">найти магазин</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">подобрать размер</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__column">
+							<div data-spollers="699,max" class="spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="footer__title spollers__title _icon-arrow-quantity">
+										Каталог
+									</button>
+									<div class="spollers__body">
+										<ul class="footer__items">
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link">новинки</a>
+											</li>
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link">одежда</a>
+											</li>
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link">Обувь</a>
+											</li>
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link">аксессуары</a>
+											</li>
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link">Любимые бренды</a>
+											</li>
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link footer__link_red">sALE%</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer__column">
+							<div data-spollers="699,max" class="spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="footer__title spollers__title _icon-arrow-quantity">
+										Компания
+									</button>
+									<div class="spollers__body">
+										<ul class="footer__items">
+											<li class="footer__item">
+												<a href="#" class="footer__link">О нас</a>
+											</li>
+											<li class="footer__item">
+												<a href="#" class="footer__link">Философия бренда</a>
+											</li>
+											<li class="footer__item">
+												<a href="#" class="footer__link">Блог</a>
+											</li>
+											<li class="footer__item">
+												<a href="#" class="footer__link">контакты</a>
+											</li>
+											<li class="footer__item">
+												<a href="#" class="footer__link">Faq</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__card">
+						<img src="img/footer/visa.svg" alt="" />
+						<img src="img/footer/masterCard.svg" alt="" />
+						<img src="img/footer/mir.svg" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<p class="bottom-footer__text">
+						© Copyright 2022 4:20 shop. All Rights reserved. Условия пользования
+						сайтом
+					</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close">x</button>
+    </div>
+  </div>
+</div> -->
+	<script src="js/app.min.js?_v=20241001215930"></script>
+
+</body>
+
+</html>

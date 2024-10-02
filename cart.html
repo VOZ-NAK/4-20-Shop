@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Profile</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20241001215930" />
+	<link rel="shortcut icon" href="favicon.png" type="image/png" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<p class="top-header__text">Скидка на осенние товары</p>
+					<span class="top-header__discount">20%</span>
+				</div>
+			</div>
+			<div class="header__body body-header">
+				<div class="body-header__container">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<a href="./index.html" class="body-header__logo">4:20 Shop</a>
+					<div data-da=".catalog-header__container,1080" class="body-header__locations locations-header">
+						<a href="./map.html?city=Москва&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577332.5659198092!2d36.72621564040599!3d55.58103354861595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1727695073295!5m2!1sru!2sru" class="locations-header__city _icon-location">Москва</a>
+						<a href="./map.html?city=Санкт-Петербург&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255808.70679276172!2d29.765051746221946!3d59.94034692107245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1727696369576!5m2!1sru!2sru" class="locations-header__city _icon-location">Санкт-Петербург</a>
+						<a href="./map.html?city=Казань&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143543.35164599004!2d48.908499404229346!3d55.79558431451836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415ead2b7caccd99%3A0x7fcb77b9b5ad8c65!2z0JrQsNC30LDQvdGMLCDQoNC10YHQvy4g0KLQsNGC0LDRgNGB0YLQsNC9!5e0!3m2!1sru!2sru!4v1727696437341!5m2!1sru!2sru" class="locations-header__city _icon-location">Казань</a>
+						<a href="./map.html?city=Нижний Новгород&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d141707.91649821616!2d43.76136290845725!3d56.292098618939455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5f9ee033251%3A0x28d3c0cf849657aa!2z0J3QuNC20L3QuNC5INCd0L7QstCz0L7RgNC-0LQsINCd0LjQttC10LPQvtGA0L7QtNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1727696504869!5m2!1sru!2sru" class="locations-header__city _icon-location">Нижний Новгород</a>
+					</div>
+					<div class="body-header__search search-header _icon-search">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск" class="search-header__input" />
+						<button type="reset" class="search-header__button _icon-cross"></button>
+					</div>
+					<div class="body-header__actions actions-header">
+						<a href="./profile.html" class="actions-header__item _icon-user"></a>
+						<a href="./favorite.html" class="actions-header__item _icon-favorite"></a>
+						<a href="./cart.html" class="actions-header__item _icon-cart"></a>
+					</div>
+				</div>
+			</div>
+			<div class="header__catalog catalog-header">
+				<div class="catalog-header__container">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item" id="sale">
+									<a href="#" class="menu__link menu__link_red">SALE %</a>
+								</li>
+								<li class="menu__item" id="new">
+									<a href="#" class="menu__link">новинки</a>
+								</li>
+								<li class="menu__item" id="clothes">
+									<a href="#" class="menu__link">одежда</a>
+								</li>
+								<li class="menu__item" id="shoes">
+									<a href="#" class="menu__link">Обувь</a>
+								</li>
+								<li class="menu__item" id="accessories">
+									<a href="#" class="menu__link">аксессуары</a>
+								</li>
+								<li class="menu__item" id="brands">
+									<a href="#" class="menu__link">Любимые бренды</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="header__sale sale-header">
+				<div class="sale-header__container">
+					<div class="sale-header__items">
+						<div class="sale-header__item">
+							<a href="./catalog.html">
+								<picture><source srcset="img/header/sale/sale_1.webp" type="image/webp"><img src="img/header/sale/sale_1.png" alt="Товар" /></picture>
+								<a href="./catalog.html" class="sale-header__text">ЗИП ХУДИ STONE ISLAND</a>
+							</a>
+						</div>
+						<div class="sale-header__item">
+							<a href="./catalog.html">
+								<picture><source srcset="img/header/sale/sale_2.webp" type="image/webp"><img src="img/header/sale/sale_2.png" alt="Товар" /></picture>
+								<a href="./catalog.html" class="sale-header__text">ЗИП ХУДИ ШЕРПА STONE ISLAND С КАПЮШОНОМ
+								</a>
+							</a>
+						</div>
+						<div class="sale-header__item">
+							<picture><source srcset="img/header/sale/sale_3.webp" type="image/webp"><img src="img/header/sale/sale_3.png" alt="Товар" /></picture>
+							<a href="#" class="sale-header__text">ХУДИ ARC'TERYX</a>
+						</div>
+						<div class="sale-header__item">
+							<picture><source srcset="img/header/sale/sale_4.webp" type="image/webp"><img src="img/header/sale/sale_4.png" alt="Товар" /></picture>
+							<a href="#" class="sale-header__text">ЗИП ШЕРПА STONE ISLAND</a>
+						</div>
+						<div class="sale-header__item">
+							<picture><source srcset="img/header/sale/sale_5.webp" type="image/webp"><img src="img/header/sale/sale_5.png" alt="Товар" /></picture>
+							<a href="#" class="sale-header__text">ЗИП ХУДИ BAPE SHARK С КАПЮШОНОМ</a>
+						</div>
+						<div class="sale-header__item">
+							<picture><source srcset="img/header/sale/sale_6.webp" type="image/webp"><img src="img/header/sale/sale_6.png" alt="Товар" /></picture>
+							<a href="#" class="sale-header__text">ЗИП ХУДИ ШЕРПА STONE ISLAND С КАПЮШОНОМ
+							</a>
+						</div>
+						<div class="sale-header__item">
+							<picture><source srcset="img/header/sale/sale_7.webp" type="image/webp"><img src="img/header/sale/sale_7.png" alt="Товар" /></picture>
+							<a href="#" class="sale-header__text">ЗИП ХУДИ BAPE SHARK С КАПЮШОНОМ</a>
+						</div>
+					</div>
+					<a href="#" class="sale-header__button _icon-arrow">Смотреть все</a>
+				</div>
+			</div>
+			<div class="sub-menu-catalog">
+				<div class="sub-menu-catalog__container">
+					<div class="sub-menu-catalog__column"></div>
+					<div class="sub-menu-catalog__column">
+						<a href="./catalog.html" class="sub-menu-catalog__category">Новинки брендов</a>
+						<ul class="sub-menu-catalog__list">
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Adidas</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">New Balance</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Bape</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Nike</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Carhartt</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Vlone</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">The North Face</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Gap</a>
+							</li>
+							<li class="sub-menu-catalog__item">
+								<a href="./catalog.html" class="sub-menu-catalog__link">Vanse</a>
+							</li>
+						</ul>
+					</div>
+					<div class="sub-menu-catalog__column">
+						<a href="./catalog.html" class="sub-menu-catalog__category">Топ избранных</a>
+						<div class="sub-menu-catalog__top top">
+							<a href="./catalog.html" class="top__link">
+								<picture><source srcset="img/header/shirts.webp" type="image/webp"><img class="top__image" src="img/header/shirts.png" alt="Товар" /></picture>
+								<p class="top__text">Футболки</p>
+							</a>
+							<a href="./catalog.html" class="top__link">
+								<picture><source srcset="img/header/hoodie.webp" type="image/webp"><img class="top__image" src="img/header/hoodie.png" alt="Товар" /></picture>
+								<p class="top__text">Худи</p>
+							</a>
+							<a href="./catalog.html" class="top__link">
+								<picture><source srcset="img/header/sweatshirts.webp" type="image/webp"><img class="top__image" src="img/header/sweatshirts.png" alt="Товар" /></picture>
+								<p class="top__text">Свитшоты</p>
+							</a>
+							<a href="./catalog.html" class="top__link">
+								<picture><source srcset="img/header/longsleeves.webp" type="image/webp"><img class="top__image" src="img/header/longsleeves.png" alt="Товар" /></picture>
+								<p class="top__text">Лонгсливы</p>
+							</a>
+						</div>
+					</div>
+					<div class="sub-menu-catalog__column">
+						<div class="sub-menu-catalog__cards">
+							<a href="./catalog.html" class="sub-menu-catalog__card sub-menu-catalog__card_hoodie">
+								Худи и толстовки
+							</a>
+
+							<a href="./catalog.html" class="sub-menu-catalog__card sub-menu-catalog__card_longsleeves">
+								Ветровки
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__mobile-menu menu-mobile">
+				<div class="body-header__locations locations-header">
+					<a href="./map.html?city=Москва&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577332.5659198092!2d36.72621564040599!3d55.58103354861595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1727695073295!5m2!1sru!2sru" class="locations-header__city _icon-location">Москва</a>
+					<a href="./map.html?city=Санкт-Петербург&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255808.70679276172!2d29.765051746221946!3d59.94034692107245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1727696369576!5m2!1sru!2sru" class="locations-header__city _icon-location">Санкт-Петербург</a>
+					<a href="./map.html?city=Казань&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143543.35164599004!2d48.908499404229346!3d55.79558431451836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415ead2b7caccd99%3A0x7fcb77b9b5ad8c65!2z0JrQsNC30LDQvdGMLCDQoNC10YHQvy4g0KLQsNGC0LDRgNGB0YLQsNC9!5e0!3m2!1sru!2sru!4v1727696437341!5m2!1sru!2sru" class="locations-header__city _icon-location">Казань</a>
+					<a href="./map.html?city=Нижний Новгород&mapUrl=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d141707.91649821616!2d43.76136290845725!3d56.292098618939455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5f9ee033251%3A0x28d3c0cf849657aa!2z0J3QuNC20L3QuNC5INCd0L7QstCz0L7RgNC-0LQsINCd0LjQttC10LPQvtGA0L7QtNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1727696504869!5m2!1sru!2sru" class="locations-header__city _icon-location">Нижний Новгород</a>
+				</div>
+
+				<div class="body-header__search search-header _icon-search">
+					<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск" class="search-header__input" />
+					<button class="search-header__button _icon-cross"></button>
+				</div>
+				<div class="menu-mobile__sale">sALE %</div>
+				<ul class="menu-mobile__items">
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title menu-mobile__item menu-mobile__item_new">
+								новинки
+							</button>
+							<div class="spollers__body">
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Посмотреть все</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Обувь</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Пуховики и куртки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Худи</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Футболки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Спортивная одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Аксессуары</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title menu-mobile__item menu-mobile__item_clothes">
+								одежда
+							</button>
+							<div class="spollers__body">
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Посмотреть все</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Бестселлеры</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Новое в разделе “Одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Пуховики и куртки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Худи и Свитшоты</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Джинсы</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Футболки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Джоггеры</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title menu-mobile__item menu-mobile__item_shoes">
+								Обувь
+							</button>
+							<div class="spollers__body">
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Посмотреть все</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Кроссовки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Кеды</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Мокасины</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Сандали</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Тапочки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Спортивная одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Спортивные кроссовки</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title menu-mobile__item menu-mobile__item_brands">
+								Любимые бренды
+							</button>
+							<div class="spollers__body">
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Посмотреть все</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Обувь</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Пуховики и куртки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Худи</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Футболки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Спортивная одежда</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Аксессуары</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title menu-mobile__item menu-mobile__item_accessories">
+								аксессуары
+							</button>
+							<div class="spollers__body">
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Посмотреть все</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Кепки и панамки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Шарфы</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Перчатки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Ремни</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Подарки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Солнечные очки</a>
+									</li>
+									<li class="sub-menu-catalog__item">
+										<a href="./catalog.html" class="sub-menu-catalog__link">Кольца</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</ul>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="profile">
+				<div class="profile__container">
+					<h1 class="profile__title">Привет, Даниил!</h1>
+				</div>
+			</section>
+			<div class="personalData cart__personalData">
+				<div class="personalData__container">
+					<div class="personalData__sidebar sidebar-personalData">
+						<div class="sidebar-personalData__options options">
+							<div href="#" class="options__item options__item_user">
+								<input id="o_1" class="options__input" type="radio" value="1" name="option" />
+								<label for="o_1" class="options__label"><span class="options__link">Личные данные</span></label>
+							</div>
+							<div href="#" class="options__item options__item_cart">
+								<div class="options__item">
+									<input checked id="o_2" class="options__input" type="radio" value="1" name="option" />
+									<label for="o_2" class="options__label"><span class="options__link">Заказы</span></label>
+								</div>
+							</div>
+							<div href="favorite.html" class="options__item options__item_favorite">
+								<input id="o_3" class="options__input" type="radio" value="1" name="option" />
+								<label for="o_3" class="options__label"><span class="options__link">Избранное</span></label>
+							</div>
+						</div>
+						<a href="./index.html" class="sidebar-personalData__exit">Выйти</a>
+					</div>
+					<div class="personalData__content content-personalData cart">
+						<div data-spollers class="spollers cart__spollers">
+							<div class="spollers__item cart__item ">
+								<button type="button" data-spoller class="profile__spollers-title cart__title _icon-arrow-swiper _spoller-active">
+									В обработке
+								</button>
+								<div class="spollers__body cart__body">
+									<div class="cart__information information-cart">
+										<div class="information-cart__order">ЗАКАЗ – 19841-0043</div>
+										<div class="information-cart__info">
+											<div class="information-cart__data">27/03/2022</div>
+											<div class="information-cart__status">Статус заказа: <span class="information-cart__status_green">в доставке</span></div>
+											<div class="information-cart__number">трек Номер: <span class="information-cart__number_code">RA80239049423</span></div>
+										</div>
+									</div>
+									<div class="cart__table table">
+										<div class="table__head head-table">
+											<div class="head-table__product">Товар</div>
+											<div class="head-table__parameters">
+												<div class="head-table__parameter">кол-во</div>
+												<div class="head-table__parameter">ЦВЕТ/Размер</div>
+												<div class="head-table__parameter">стоимость</div>
+											</div>
+										</div>
+										<div class="table__items">
+											<div class="table__item item-table">
+												<a href="./card.html" class="item-table__card">
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+													<div class="item-table__info">
+														<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+														<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+													</div>
+												</a>
+												<div class="item-table__parameters">
+													<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+													<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+													<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+												</div>
+											</div>
+											<div class="table__item item-table">
+												<a href="./card.html" class="item-table__card">
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+													<div class="item-table__info">
+														<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+														<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+													</div>
+												</a>
+												<div class="item-table__parameters">
+													<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+													<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+													<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+												</div>
+
+											</div>
+											<div class="table__item item-table">
+												<a href="./card.html" class="item-table__card">
+													<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+													<div class="item-table__info">
+														<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+														<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+													</div>
+												</a>
+												<div class="item-table__parameters">
+													<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+													<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+													<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-spollers class="spollers ">
+							<div class="spollers__item cart__item ">
+								<button type="button" data-spoller class="profile__spollers-title cart__title _icon-arrow-swiper _spoller-active">
+									Завершенные
+								</button>
+								<div class="spollers__body cart__body">
+									<div data-spollers class="spollers">
+										<div class="spollers__item">
+											<button type="button" data-spoller class="profile__spollers-title  _icon-arrow-swiper _spoller-active">
+												<div class="cart__information information-cart">
+													<div class="information-cart__order">ЗАКАЗ – 19841-0043</div>
+													<div class="information-cart__info">
+														<div class="information-cart__data">27/03/2022</div>
+														<div class="information-cart__status">Статус заказа: <span class="information-cart__status_blue">Завершен</span></div>
+														<div class="information-cart__number">трек Номер: <span class="information-cart__number_code">RA80239049423</span></div>
+													</div>
+												</div>
+											</button>
+											<div class="spollers__body">
+												<div class="cart__table table">
+													<div class="table__head head-table">
+														<div class="head-table__product">Товар</div>
+														<div class="head-table__parameters">
+															<div class="head-table__parameter">кол-во</div>
+															<div class="head-table__parameter">ЦВЕТ/Размер</div>
+															<div class="head-table__parameter">стоимость</div>
+														</div>
+													</div>
+													<div class="table__items">
+														<div class="table__item item-table">
+															<a href="./card.html" class="item-table__card">
+																<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+																<div class="item-table__info">
+																	<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+																	<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+																</div>
+															</a>
+															<a href="./card.html" class="item-table__parameters">
+																<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+																<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+																<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+															</a>
+														</div>
+														<div class="table__item item-table">
+															<a href="./card.html" class="item-table__card">
+																<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+																<div class="item-table__info">
+																	<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+																	<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+																</div>
+															</a>
+															<div class="item-table__parameters">
+																<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+																<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+																<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+															</div>
+
+														</div>
+														<div class="table__item item-table">
+															<div class="item-table__card">
+																<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+																<div class="item-table__info">
+																	<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+																	<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+																</div>
+															</div>
+															<div class="item-table__parameters">
+																<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+																<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+																<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+															</div>
+
+														</div>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<div data-spollers class="spollers">
+										<div class="spollers__item">
+											<button type="button" data-spoller class="profile__spollers-title  _icon-arrow-swiper _spoller-active">
+												<div class="cart__information information-cart">
+													<div class="information-cart__order">ЗАКАЗ – 19841-0043</div>
+													<div class="information-cart__info">
+														<div class="information-cart__data">27/03/2022</div>
+														<div class="information-cart__status">Статус заказа: <span class="information-cart__status_blue">Завершен</span></div>
+														<div class="information-cart__number">трек Номер: <span class="information-cart__number_code">RA80239049423</span></div>
+													</div>
+												</div>
+											</button>
+											<div class="spollers__body">
+												<div class="cart__table table">
+													<div class="table__head head-table">
+														<div class="head-table__product">Товар</div>
+														<div class="head-table__parameters">
+															<div class="head-table__parameter">кол-во</div>
+															<div class="head-table__parameter">ЦВЕТ/Размер</div>
+															<div class="head-table__parameter">стоимость</div>
+														</div>
+													</div>
+													<div class="table__items">
+														<div class="table__item item-table">
+															<a href="./card.html" class="item-table__card">
+																<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+																<div class="item-table__info">
+																	<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+																	<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+																</div>
+															</a>
+															<div class="item-table__parameters">
+																<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+																<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+																<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+															</div>
+														</div>
+														<div class="table__item item-table">
+															<a href="./card.html" class="item-table__card">
+																<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+																<div class="item-table__info">
+																	<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+																	<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+																</div>
+															</a>
+															<div class="item-table__parameters">
+																<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+																<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+																<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+															</div>
+
+														</div>
+														<div class="table__item item-table">
+															<a href="./card.html" class="item-table__card">
+																<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+																<div class="item-table__info">
+																	<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+																	<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+																</div>
+															</a>
+															<div class="item-table__parameters">
+																<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+																<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+																<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+															</div>
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div data-spollers class="spollers">
+										<div class="spollers__item">
+											<button type="button" data-spoller class="profile__spollers-title  _icon-arrow-swiper _spoller-active">
+												<div class="cart__information information-cart">
+													<div class="information-cart__order">ЗАКАЗ – 19841-0043</div>
+													<div class="information-cart__info">
+														<div class="information-cart__data">27/03/2022</div>
+														<div class="information-cart__status">Статус заказа: <span class="information-cart__status_blue">Завершен</span></div>
+														<div class="information-cart__number">трек Номер: <span class="information-cart__number_code">RA80239049423</span></div>
+													</div>
+												</div>
+											</button>
+											<div class="spollers__body">
+												<div class="cart__table table">
+													<div class="table__head head-table">
+														<div class="head-table__product">Товар</div>
+														<div class="head-table__parameters">
+															<div class="head-table__parameter">кол-во</div>
+															<div class="head-table__parameter">ЦВЕТ/Размер</div>
+															<div class="head-table__parameter">стоимость</div>
+														</div>
+													</div>
+													<div class="table__items">
+														<div class="table__item item-table">
+															<a href="./card.html" class="item-table__card">
+																<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+																<div class="item-table__info">
+																	<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+																	<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+																</div>
+															</a>
+															<div class="item-table__parameters">
+																<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+																<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+																<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+															</div>
+														</div>
+														<div class="table__item item-table">
+															<a href="./card.html" class="item-table__card">
+																<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+																<div class="item-table__info">
+																	<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+																	<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+																</div>
+															</a>
+															<div class="item-table__parameters">
+																<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+																<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+																<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+															</div>
+
+														</div>
+														<div class="table__item item-table">
+															<a href="./card.html" class="item-table__card">
+																<picture><source srcset="img/main/popular/popular_1.webp" type="image/webp"><img class="item-table__image" src="img/main/popular/popular_1.png" alt=""></picture>
+																<div class="item-table__info">
+																	<div class="item-table__name">Зип худи шерпа с капюшоном</div>
+																	<div class="item-table__article">Артикул <span class="item-table__article_code">st0171</span></div>
+																</div>
+															</a>
+															<div class="item-table__parameters">
+																<div class="item-table__parameter item-table__parameters_quantity">1 шт</div>
+																<div class="item-table__parameter item-table__parameters_color">Белый/S</div>
+																<div class="item-table__parameter item-table__parameters_price">3 999 ₽</div>
+															</div>
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="footer__container">
+					<div class="footer__content">
+						<div class="footer__column">
+							<p class="footer__title">Помощь</p>
+							<ul class="footer__items">
+								<li class="footer__item">
+									<a href="./profile.html" class="footer__link">Мой аккаунт</a>
+								</li>
+								<li class="footer__item">
+									<a href="./map.html" class="footer__link">Где мой магазин</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Доставка и Оплата</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">правила возврата</a>
+								</li>
+								<li class="footer__item">
+									<a href="./map.html" class="footer__link">найти магазин</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">подобрать размер</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__column">
+							<div data-spollers="699,max" class="spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="footer__title spollers__title _icon-arrow-quantity">
+										Каталог
+									</button>
+									<div class="spollers__body">
+										<ul class="footer__items">
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link">новинки</a>
+											</li>
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link">одежда</a>
+											</li>
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link">Обувь</a>
+											</li>
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link">аксессуары</a>
+											</li>
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link">Любимые бренды</a>
+											</li>
+											<li class="footer__item">
+												<a href="./catalog.html" class="footer__link footer__link_red">sALE%</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer__column">
+							<div data-spollers="699,max" class="spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="footer__title spollers__title _icon-arrow-quantity">
+										Компания
+									</button>
+									<div class="spollers__body">
+										<ul class="footer__items">
+											<li class="footer__item">
+												<a href="#" class="footer__link">О нас</a>
+											</li>
+											<li class="footer__item">
+												<a href="#" class="footer__link">Философия бренда</a>
+											</li>
+											<li class="footer__item">
+												<a href="#" class="footer__link">Блог</a>
+											</li>
+											<li class="footer__item">
+												<a href="#" class="footer__link">контакты</a>
+											</li>
+											<li class="footer__item">
+												<a href="#" class="footer__link">Faq</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__card">
+						<img src="img/footer/visa.svg" alt="" />
+						<img src="img/footer/masterCard.svg" alt="" />
+						<img src="img/footer/mir.svg" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<p class="bottom-footer__text">
+						© Copyright 2022 4:20 shop. All Rights reserved. Условия пользования
+						сайтом
+					</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close">x</button>
+    </div>
+  </div>
+</div> -->
+	<script src="js/app.min.js?_v=20241001215930"></script>
+
+</body>
+
+</html>
